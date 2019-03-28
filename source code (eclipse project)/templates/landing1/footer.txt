@@ -1,0 +1,41 @@
+      <div class="row">
+        <div class="input-field">
+          <input name="cname" type="text">
+          <label for="first_name">name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field">
+          <input name="cmaill" type="text">
+          <label for="first_name">email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">content</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field">
+          <input name="cname" type="submit" class="waves-effect waves-light btn">
+        </div>
+      </div>
+    </form>
+    <!--end contact form-->
+  </div>
+  <!--end row-->
+</div>
+<!--end main-->
+
+
+
+
+<!--javascript scripts jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <!--script src="js/script.js"></script-->
+  
+</body>
+</html>

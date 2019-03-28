@@ -1,0 +1,27 @@
+.header {
+  padding: 30px;
+}
+.header p{
+	word-wrap: break-word;   
+	max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.features {
+  padding: 30px;
+}
+.features p
+{	
+	word-wrap: break-word;   
+	max-width: 500px;
+}
+.showcase {
+  padding: 30px;
+}
+
+.footer {
+  padding: 30px;
+}
+.footer form {
+  margin: 0 auto;
+}

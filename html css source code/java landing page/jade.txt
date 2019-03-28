@@ -1,0 +1,31 @@
+.container.main
+  .row
+    h1
+      |pagetitle
+    img(src="").responsive-img
+    p
+      |landing page copy
+    h3 contact us
+     //contact form
+    form(action="https://formspree.io/your@email.com",method="post").contact_form
+        .row
+          .input-field
+            input(name="cname",type="text")
+            label(for="first_name")|name
+        .row
+          .input-field
+            input(name="cmaill",type="text")
+            label(for="first_name")|email
+        .row
+         .input-field
+           textarea.materialize-textarea#textarea1
+           label(for="textarea1") content
+        
+            
+        .row
+          .input-field
+            input(name="cname",type="submit").waves-effect.waves-light.btn
+     //end contact form
+   
+   //end row
+ //end main

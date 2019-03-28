@@ -1,0 +1,17 @@
+body {
+  background: #383838;
+}
+
+.main {
+  background: white;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+
+.contact_form {
+  max-width: 500px;
+  margin: 0 auto;
+}

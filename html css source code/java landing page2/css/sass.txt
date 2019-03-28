@@ -1,0 +1,11 @@
+$inner-padding:30px;
+.header{}
+.features{}
+.showcase{}
+.footer
+{
+  form
+  {
+    margin:0 auto;
+  }
+}

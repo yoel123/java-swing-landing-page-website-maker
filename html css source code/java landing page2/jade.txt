@@ -1,0 +1,97 @@
+/////header
+.row.header.grey.darken-4.white-text
+  .col.l12.center
+    img(src="").responsive-img
+    h1 site title
+    p
+      |header text
+    img(src="").responsive-img
+  
+/////////end header
+
+////features
+.row.features
+  .col.l3.item
+    h3 item title
+    p
+      |item text
+   //end item
+  .col.l3.item
+    h3 item title
+    p
+      |item text
+   //end item
+  .col.l3.item
+    h3 item title
+    p
+      |item text
+   //end item
+  .col.l3.item
+    h3 item title
+    p
+      |item text
+   //end item
+/////////end features
+
+///////showcase
+.row.showcase
+  .col.l12.center
+    h2 showcase text
+  .col.l3.item
+    .inner.card-panel.grey.lighten-5.z-depth-1
+      img(src="").responsive-img
+      p 
+        a(href="") |link text
+  //end item
+  
+  .col.l3.item
+    .inner.card-panel.grey.lighten-5.z-depth-1
+      img(src="").responsive-img
+      p 
+        a(href="") |link text
+  //end item
+  
+  .col.l3.item
+    .inner.card-panel.grey.lighten-5.z-depth-1
+      img(src="").responsive-img
+      p 
+        a(href="") |link text
+  //end item
+  
+  .col.l3.item
+    .inner.card-panel.grey.lighten-5.z-depth-1
+      img(src="").responsive-img
+      p 
+        a(href="") |link text
+  //end item
+  
+////////////end showcase
+
+//////footer
+.row.footer
+  .col.l7.center.push-l3
+    h2 contact form
+    form(action="https://formspree.io/your@email.com",method="post").contact_form
+      .row
+        .input-field
+          input(name="cname",type="text")
+          label(for="first_name")|name
+      .row
+        .input-field
+          input(name="cmaill",type="text")
+          label(for="first_name")|email
+      .row
+        .input-field
+          textarea.materialize-textarea#textarea1
+          label(for="textarea1") content
+        
+      
+      .row
+        .input-field
+        input(name="cname",type="submit").waves-effect.waves-light.btn
+     //end contact form     
+
+  .col.l12.copyright.center
+    span.gray.lighten-1
+      |copyright text
+//////////end footer
